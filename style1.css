@@ -1,12 +1,12 @@
 :root {
-  --red: #8e14be;
+  --red: #f1f1f1;
   --red-light: #c22be4;
-  --bg: #0d0d0d;
+  --bg: #2f2e2e;
   --bg2: #141414;
-  --bg3: #1a1a1a;
-  --text: #f0ece6;
-  --muted: #afabab;
-  --border: rgba(255,255,255,0.07);
+  --bg3: #3e3d3d;
+  --text: #d5d5d5;
+  --muted: #f39bf5f4;
+  --border: rgba(186, 125, 197, 0.885);
 }
 html { scroll-behavior: smooth; }
 body {
@@ -36,7 +36,7 @@ nav {
   color: var(--text);
   text-decoration: none;
 }
-.logo span { color: var(--red); }
+.logo span { color: var(); }
 
 .nav-links {
   display: flex;
@@ -52,7 +52,7 @@ nav {
   transition: 0.3s;
 }
 .nav-links a:hover,
-.nav-links a.active { color: var(--vio); }
+.nav-links a.active { color: var(); }
 section {
   min-height: 100vh;
   padding: 120px 48px 80px;
@@ -70,7 +70,7 @@ section {
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid var(--red);
+  border: 2px solid var();
   box-shadow: 0 0 25px rgba(142, 20, 190, 0.7);
 }
 .home-photo img {
@@ -93,14 +93,14 @@ section {
   font-weight: 700;
   margin-bottom: 14px;
 }
-.home-text h1 span { color: var(--red); }
+.home-text h1 span { color: var(); }
 
 .home-text .tagline {
   font-size: 0.92rem;
   font-weight: 500;
   margin-bottom: 12px;
 }
-.home-text .tagline em { color: var(--red); }
+.home-text .tagline em { color: var(); }
 
 .home-text p {
   color: var(--muted);
@@ -217,7 +217,7 @@ section {
 .project-thumb img,
 .project-thumb video {
   width: 100%;
-  height: 100%;
+  height: 200%;
   object-fit: cover;
 }
 .project-info {
@@ -240,5 +240,5 @@ section {
     gap: 28px;
     text-align: center;
   }
-  .home-text h1 { font-size: 2rem; }
+
 }
