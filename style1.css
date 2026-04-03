@@ -52,7 +52,7 @@ nav {
   transition: 0.3s;
 }
 .nav-links a:hover,
-.nav-links a.active { color: var(--red); }
+.nav-links a.active { color: var(--vio); }
 section {
   min-height: 100vh;
   padding: 120px 48px 80px;
@@ -66,8 +66,8 @@ section {
 }
 .home-photo {
   flex-shrink: 0;
-  width: 190px;
-  height: 190px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid var(--red);
